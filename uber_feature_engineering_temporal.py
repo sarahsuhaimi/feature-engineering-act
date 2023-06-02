@@ -49,7 +49,6 @@ df[['datetime', 'hour', 'minute', 'second']]
 
 # %%
 # BINNING THE HOUR FEATURE
-# CAN GET INFO ON BILA UBER IN DEMAND
 hour_bins = [-1, 5, 11, 16, 21, 23]
 bin_names = ['Late Night', 'Morning', 'Afternoon', 'Evening', 'Night']
 
